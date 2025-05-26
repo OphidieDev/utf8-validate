@@ -1,0 +1,28 @@
+{
+  "name": "@rbxts/utf8-validate",
+  "version": "1.0.0",
+  "description": "UTF8 validator",
+  "main": "src/init.luau",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OphidieDev/utf8-validate.git"
+  },
+  "author": "ophidie",
+  "license": "MIT",
+  "bugs": {
+	"url": "https://github.com/OphidieDev/utf8-validate/issues"
+  },
+  "homepage": "https://github.com/OphidieDev/utf8-validate#readme",
+  "files": [
+    "src/**/*",
+    "!src/**/*.spec.{luau,ts}",
+    "default.project.json"
+  ],
+  "publishConfig": {
+	"access": "public"
+  }
+}
