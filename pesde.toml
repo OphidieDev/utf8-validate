@@ -1,5 +1,5 @@
 name = "ophidiedev/utf8_validate"
-version = "0.1.0"
+version = "1.0.0"
 description = "UTF8 validator"
 repository = "https://github.com/OphidieDev/utf8-validate"
 license = "MIT"
