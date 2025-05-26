@@ -1,6 +1,9 @@
 # Project place file
 /utf8-validate.rbxlx
 
-# Roblox Studio lock files
-/*.rbxlx.lock
-/*.rbxl.lock
+# Selene
+roblox.yml
+
+/*.lock
+
+sourcemap.json
