@@ -1,7 +1,11 @@
 [package]
 name = "ophidiedev/utf8-validate"
+description = "UTF8 Validator"
+authors = ["Ophidie <>"]
 version = "1.0.0"
+license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+repository = "https://github.com/OphidieDev/utf8-validate"
 
 [dependencies]
