@@ -4,6 +4,14 @@
 # Selene
 roblox.yml
 
+# Pesde
+# pesde.lock
+luau_packages
+lune_packages
+roblox_packages
+roblox_server_packages
+.pesde/scripts
+
 /*.lock
 
 sourcemap.json

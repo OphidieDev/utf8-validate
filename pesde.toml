@@ -1,11 +1,20 @@
 name = "ophidiedev/utf8_validate"
-version = "1.0.0"
+version = "1.0.1"
+authors = ["Ophidie (https://github.com/OphidieDev)"]
 description = "UTF8 validator"
 repository = "https://github.com/OphidieDev/utf8-validate"
 license = "MIT"
+includes = [
+  "pesde.toml",
+  "README.md",
+  "LICENSE",
+  "src/**/*.luau",
+]
 
 [target]
 environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
