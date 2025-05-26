@@ -21,17 +21,17 @@
 ## Installation
 Add to your `wally.toml`:
 ```toml
-utf8_validate = "ophidiedev/utf8-validate@1.0.0"
+utf8_validate = "ophidiedev/utf8-validate@1.0.1"
 ```
 
 Add to your `pesde.toml`:
 ```toml
-utf8_validate = { name = "ophidiedev/utf8_validate", version = "^1.0.0" }
+utf8_validate = { name = "ophidiedev/utf8_validate", version = "^1.0.1" }
 ```
 
 Add to your `package.json`:
 ```json
-"@rbxts/utf8-validate": "^1.0.0"
+"@rbxts/utf8-validate": "^1.0.1"
 ```
 
 ## Read More
