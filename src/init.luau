@@ -1,4 +1,4 @@
-local function utf8_validate(input: string): (boolean, number)
+local function utf8_validate(input: string): boolean
    local _
    local i, len = 1, #input
    local byte, second, third, fourth = 0, 129, 129, 129
@@ -66,7 +66,7 @@ local function utf8_validate(input: string): (boolean, number)
 
       else
 
-         return false, code_points
+         return false
       end
 
       -- for Lua 5.2+, you can uncomment the goto's above and the lines below for a bit of a speedup
@@ -85,7 +85,7 @@ local function utf8_validate(input: string): (boolean, number)
       if second == nil or second < 128 or second > 191 then return false, code_points end
 
    end
-   return true, code_points
+   return true
 end
 
 return utf8_validate
