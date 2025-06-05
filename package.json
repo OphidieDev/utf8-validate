@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/utf8-validate",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "UTF8 validator",
   "main": "src/init.luau",
   "types": "src/index.d.ts",
