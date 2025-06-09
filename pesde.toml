@@ -1,5 +1,5 @@
 name = "ophidiedev/utf8_validate"
-version = "2.0.1"
+version = "2.0.2"
 authors = ["Ophidie (https://github.com/OphidieDev)"]
 description = "UTF8 validator"
 repository = "https://github.com/OphidieDev/utf8-validate"
