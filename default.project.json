@@ -1,39 +1,6 @@
 {
   "name": "utf8-validate",
   "tree": {
-    "$className": "DataModel",
-
-    "ReplicatedStorage": {
-      "utf8_validate": {
-        "$path": "src"
-      }
-    },
-
-    "ServerScriptService": {
-      "$className": "ServerScriptService"
-    },
-
-    "StarterPlayer": {
-		"$className": "StarterPlayer",
-      "StarterPlayerScripts": {
-		"$className": "StarterPlayerScripts"
-      }
-    },
-
-    "Workspace": {
-		"$className": "Workspace",
-    	"$properties": {
-        	"FilteringEnabled": true
-    	}
-    },
-    "Lighting": {
-		"$className": "Lighting"
-    },
-    "SoundService": {
-		"$className": "SoundService",
-    	"$properties": {
-    		"RespectFilteringEnabled": true
-    	}
-    }
+    "$path": "src"
   }
 }
