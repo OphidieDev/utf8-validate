@@ -2,7 +2,7 @@
 name = "ophidiedev/utf8-validate"
 description = "UTF8 Validator"
 authors = ["Ophidie <>"]
-version = "2.0.1"
+version = "2.0.2"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
